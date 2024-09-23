@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <AspnetVersion>8.0.8</AspnetVersion>
+    <EfVersion>8.0.8</EfVersion>
+    <AspireVersion>8.2.0</AspireVersion>
+    <DuendeVersion>7.0.6</DuendeVersion>
+    <ApiVersioningVersion>8.1.0</ApiVersioningVersion>
+    <MicrosoftExtensionsVersion>8.7.0</MicrosoftExtensionsVersion>
+  </PropertyGroup>
+</Project>
