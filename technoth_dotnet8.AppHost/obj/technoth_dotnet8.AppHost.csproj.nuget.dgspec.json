@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/technoth_dotnet8/technoth_dotnet8.AppHost/technoth_dotnet8.AppHost.csproj": {}
+  },
+  "projects": {
+    "/workspaces/technoth_dotnet8/technoth_dotnet8.AppHost/technoth_dotnet8.AppHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/technoth_dotnet8/technoth_dotnet8.AppHost/technoth_dotnet8.AppHost.csproj",
+        "projectName": "technoth_dotnet8.AppHost",
+        "projectPath": "/workspaces/technoth_dotnet8/technoth_dotnet8.AppHost/technoth_dotnet8.AppHost.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/technoth_dotnet8/technoth_dotnet8.AppHost/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Dashboard.Sdk.linux-x64": {
+              "target": "Package",
+              "version": "[8.2.0, )",
+              "autoReferenced": true
+            },
+            "Aspire.Hosting.AppHost": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Aspire.Hosting.Orchestration.linux-x64": {
+              "target": "Package",
+              "version": "[8.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
