@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "H5tACF9Ppzg=",
+  "success": false,
+  "projectFilePath": "/workspaces/technoth_dotnet8/src/TechnoTH.AppHost/TechnoTH.AppHost.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: Aspire.Hosting.AppHost."
+    }
+  ]
+}
