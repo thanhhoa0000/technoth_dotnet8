@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechnoTH.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54f23f2c5976a3cf67c7ccdf5af2361f95f735b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25af81339bd12cc534db45a51123209672d9c730")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechnoTH.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechnoTH.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

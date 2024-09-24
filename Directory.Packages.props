@@ -9,4 +9,10 @@
     <ApiVersioningVersion>8.1.0</ApiVersioningVersion>
     <MicrosoftExtensionsVersion>8.7.0</MicrosoftExtensionsVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Version together with Aspire -->
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(AspireVersion)"/>
+
+  </ItemGroup>
 </Project>

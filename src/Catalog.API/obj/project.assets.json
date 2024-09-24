@@ -64,6 +64,9 @@
             "version": "[6.4.0, )"
           }
         },
+        "centralPackageVersions": {
+          "Aspire.Hosting.AppHost": "8.2.0"
+        },
         "imports": [
           "net461",
           "net462",
