@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "o2cbNr87nas=",
+  "dgSpecHash": "WtHMCVk6sdo=",
   "success": true,
   "projectFilePath": "/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/TechnoTH.ServiceDefaults.csproj",
   "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/asp.versioning.abstractions/8.1.0/asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/asp.versioning.http/8.1.0/asp.versioning.http.8.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/asp.versioning.mvc/8.1.0/asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/asp.versioning.mvc.apiexplorer/8.1.0/asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/google.protobuf/3.22.5/google.protobuf.3.22.5.nupkg.sha512",
     "/home/codespace/.nuget/packages/grpc.core.api/2.52.0/grpc.core.api.2.52.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/grpc.net.client/2.52.0/grpc.net.client.2.52.0.nupkg.sha512",
