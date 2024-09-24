@@ -68,6 +68,9 @@
             }
           },
           "centralPackageVersions": {
+            "Asp.Versioning.Http": "8.1.0",
+            "Asp.Versioning.Http.Client": "8.1.0",
+            "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
             "Aspire.Hosting.AppHost": "8.2.0",
             "Aspire.Hosting.PostgreSQL": "8.2.0",
             "Automapper": "13.0.1",
