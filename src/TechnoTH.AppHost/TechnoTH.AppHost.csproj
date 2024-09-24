@@ -5,11 +5,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
+    <IsPackable>false</IsPackable>
     <UserSecretsId>7c514ab4-f792-4e84-989c-710e9fd5f422</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Catalog.API\Catalog.API.csproj" />
   </ItemGroup>
 
 </Project>

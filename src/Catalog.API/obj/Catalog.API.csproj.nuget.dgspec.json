@@ -13,8 +13,6 @@
         "packagesPath": "/home/codespace/.nuget/packages/",
         "outputPath": "/workspaces/technoth_dotnet8/src/Catalog.API/obj/",
         "projectStyle": "PackageReference",
-        "centralPackageVersionsManagementEnabled": true,
-        "CentralPackageTransitivePinningEnabled": true,
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
@@ -35,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,9 +47,6 @@
               "target": "Package",
               "version": "[6.4.0, )"
             }
-          },
-          "centralPackageVersions": {
-            "Aspire.Hosting.AppHost": "8.2.0"
           },
           "imports": [
             "net461",

@@ -12,7 +12,11 @@
 
   <ItemGroup>
     <!-- Version together with Aspire -->
-    <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(AspireVersion)"/>
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="$(AspireVersion)" />
+    
+    <!-- Version together with EF -->
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
 
   </ItemGroup>
 </Project>
