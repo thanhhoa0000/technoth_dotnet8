@@ -1,0 +1,13 @@
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/bin/Debug/net8.0/TechnoTH.ServiceDefaults.deps.json
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/bin/Debug/net8.0/TechnoTH.ServiceDefaults.dll
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/bin/Debug/net8.0/TechnoTH.ServiceDefaults.pdb
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.csproj.AssemblyReference.cache
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.AssemblyInfoInputs.cache
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.AssemblyInfo.cs
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.csproj.CoreCompileInputs.cache
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.sourcelink.json
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.dll
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/refint/TechnoTH.ServiceDefaults.dll
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/TechnoTH.ServiceDefaults.pdb
+/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/obj/Debug/net8.0/ref/TechnoTH.ServiceDefaults.dll

@@ -35,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,13 +48,24 @@
             },
             "Aspire.Hosting.AppHost": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.2.0, )",
+              "versionCentrallyManaged": true
             },
             "Aspire.Hosting.Orchestration.linux-x64": {
               "target": "Package",
               "version": "[8.2.0, )",
               "autoReferenced": true
+            },
+            "Aspire.Hosting.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.2.0, )",
+              "versionCentrallyManaged": true
             }
+          },
+          "centralPackageVersions": {
+            "Aspire.Hosting.AppHost": "[8.2.0, )",
+            "Aspire.Hosting.PostgreSQL": "[8.2.0, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.4, )"
           },
           "imports": [
             "net461",
