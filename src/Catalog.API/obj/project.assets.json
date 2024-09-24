@@ -453,6 +453,8 @@
       "packagesPath": "/home/codespace/.nuget/packages/",
       "outputPath": "/workspaces/technoth_dotnet8/src/Catalog.API/obj/",
       "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "CentralPackageTransitivePinningEnabled": true,
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
@@ -487,6 +489,11 @@
             "target": "Package",
             "version": "[6.4.0, )"
           }
+        },
+        "centralPackageVersions": {
+          "Aspire.Hosting.AppHost": "[8.2.0, )",
+          "Aspire.Hosting.PostgreSQL": "[8.2.0, )",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.4, )"
         },
         "imports": [
           "net461",

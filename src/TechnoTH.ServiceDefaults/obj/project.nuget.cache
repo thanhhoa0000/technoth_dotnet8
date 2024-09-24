@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AIjbSRoC3jLqLFLO5/qK1DNOKV3swv1mJbUKIx/0lFkQvobjKchzOXfU0z4WTe53B/r7RRHR1wE9XLkGKCkjtw==",
+  "dgSpecHash": "NCBJ6BpgDPykEb2i9bCe4MW+8G/IoH1UrDGpggm9yo24PmtqJl9hYqS+4/ks26p+qDwlu8uyV3hzDmW5l/Tf6w==",
   "success": true,
   "projectFilePath": "/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/TechnoTH.ServiceDefaults.csproj",
   "expectedPackageFiles": [

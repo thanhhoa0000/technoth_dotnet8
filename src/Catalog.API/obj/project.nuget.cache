@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CPdkfPbGWslwunwNUTBUWdusYkRFDQtyEGzuHAs+8tOhaEccFsArmnUFJTc4O/d4cMQS58jVxLyfa2NKN1O6rw==",
+  "dgSpecHash": "XVAW0m2kb1HEy9gJBni4eTQaGi9HZwZZTz+6nLnUSvrJmCeSq+QXuDV6r7a6jkZmpAmSm4CWIhNT0HGf76tOcA==",
   "success": true,
   "projectFilePath": "/workspaces/technoth_dotnet8/src/Catalog.API/Catalog.API.csproj",
   "expectedPackageFiles": [
