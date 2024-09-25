@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Eeq7ETmTPcA=",
+  "dgSpecHash": "VXMVmvFoo4c=",
   "success": true,
   "projectFilePath": "/workspaces/technoth_dotnet8/src/TechnoTH.AppHost/TechnoTH.AppHost.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "/home/codespace/.nuget/packages/grpc.net.clientfactory/2.65.0/grpc.net.clientfactory.2.65.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/grpc.net.common/2.65.0/grpc.net.common.2.65.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/grpc.tools/2.65.0/grpc.tools.2.65.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/identitymodel/5.2.0/identitymodel.5.2.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/identitymodel/7.0.0/identitymodel.7.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/identitymodel.oidcclient/5.2.1/identitymodel.oidcclient.5.2.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/kubernetesclient/14.0.9/kubernetesclient.14.0.9.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",

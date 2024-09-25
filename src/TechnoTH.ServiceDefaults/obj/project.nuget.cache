@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WtHMCVk6sdo=",
+  "dgSpecHash": "/gk+k/f7hig=",
   "success": true,
   "projectFilePath": "/workspaces/technoth_dotnet8/src/TechnoTH.ServiceDefaults/TechnoTH.ServiceDefaults.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/home/codespace/.nuget/packages/grpc.core.api/2.52.0/grpc.core.api.2.52.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/grpc.net.client/2.52.0/grpc.net.client.2.52.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/grpc.net.common/2.52.0/grpc.net.common.2.52.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.8/microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.ambientmetadata.application/8.7.0/microsoft.extensions.ambientmetadata.application.8.7.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -43,6 +44,12 @@
     "/home/codespace/.nuget/packages/microsoft.extensions.servicediscovery.abstractions/8.2.0/microsoft.extensions.servicediscovery.abstractions.8.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.telemetry/8.7.0/microsoft.extensions.telemetry.8.7.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.telemetry.abstractions/8.7.0/microsoft.extensions.telemetry.abstractions.8.7.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.abstractions/7.1.2/microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.1.2/microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.logging/7.1.2/microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.tokens/7.1.2/microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.io.recyclablememorystream/3.0.0/microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/home/codespace/.nuget/packages/opentelemetry/1.9.0/opentelemetry.1.9.0.nupkg.sha512",
@@ -61,6 +68,7 @@
     "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.7.3/swashbuckle.aspnetcore.swaggergen.6.7.3.nupkg.sha512",
     "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.7.3/swashbuckle.aspnetcore.swaggerui.6.7.3.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.identitymodel.tokens.jwt/7.1.2/system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
   ],
