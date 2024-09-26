@@ -51,6 +51,11 @@
               "version": "[8.1.0, )",
               "versionCentrallyManaged": true
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )",
@@ -104,6 +109,8 @@
             "Aspire.Hosting.AppHost": "8.2.0",
             "Aspire.Hosting.PostgreSQL": "8.2.0",
             "Automapper": "13.0.1",
+            "IdentityModel": "7.0.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
             "Microsoft.AspNetCore.OpenApi": "8.0.8",
             "Microsoft.Extensions.Http.Resilience": "8.7.0",
             "Microsoft.Extensions.ServiceDiscovery": "8.2.0",
