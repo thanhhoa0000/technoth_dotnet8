@@ -1,6 +1,3 @@
 ﻿namespace Catalog.API.Models;
 
-public class PaginationRequest
-{
-    
-}
+public record PaginationRequest(int PageSize = 8, int PageIndex = 0);

@@ -1,6 +1,3 @@
-﻿namespace Catalog.API;
+﻿global using System.ComponentModel.DataAnnotations;
 
-public class GlobalUsings
-{
-    
-}
+global using Catalog.API.Infrastructure.Exceptions;

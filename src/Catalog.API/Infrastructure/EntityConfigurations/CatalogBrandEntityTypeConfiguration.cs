@@ -1,6 +1,10 @@
-﻿namespace Catalog.API.Infrastructure.EntityConfigurations;
+﻿using Catalog.API.Models;
 
-public class CatalogBrandEntityTypeConfiguration
+namespace Catalog.API.Infrastructure.EntityConfigurations;
+
+public class CatalogBrandEntityTypeConfiguration : 
+    IEntityTypeConfiguration<CatalogBrand>
+
 {
     
 }
