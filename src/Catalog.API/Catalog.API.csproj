@@ -8,6 +8,7 @@
   <ItemGroup>
     <Compile Include="..\Shared\ActivityExtensions.cs" Link="Extensions\ActivityExtensions.cs" />
     <Compile Include="..\Shared\MigrateDbContextExtensions.cs" Link="Extensions\MigrateDbContextExtensions.cs" />
+    <Compile Remove="Apiss\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +22,18 @@
   
   <ItemGroup>
     <ProjectReference Include="..\TechnoTH.ServiceDefaults\TechnoTH.ServiceDefaults.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Remove="Apiss\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Remove="Apiss\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Apiss\**" />
   </ItemGroup>
 
 </Project>
