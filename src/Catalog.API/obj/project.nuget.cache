@@ -1,16 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yvD9zNF4KJw=",
-  "success": true,
+  "dgSpecHash": "Sm+a7CxW2Fw=",
+  "success": false,
   "projectFilePath": "/workspaces/technoth_dotnet8/src/Catalog.API/Catalog.API.csproj",
-  "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore/6.7.3/swashbuckle.aspnetcore.6.7.3.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swagger/6.7.3/swashbuckle.aspnetcore.swagger.6.7.3.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.7.3/swashbuckle.aspnetcore.swaggergen.6.7.3.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.7.3/swashbuckle.aspnetcore.swaggerui.6.7.3.nupkg.sha512"
-  ],
-  "logs": []
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1010",
+      "level": "Error",
+      "message": "The PackageReference items Aspire.Npgsql.EntityFrameworkCore.PostgreSQL do not have corresponding PackageVersion."
+    }
+  ]
 }
