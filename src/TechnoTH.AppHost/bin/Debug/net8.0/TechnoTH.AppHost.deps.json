@@ -227,17 +227,17 @@
         }
       },
       "Grpc.Tools/2.65.0": {},
-      "IdentityModel/5.2.0": {
+      "IdentityModel/7.0.0": {
         "runtime": {
-          "lib/net5.0/IdentityModel.dll": {
-            "assemblyVersion": "5.2.0.0",
-            "fileVersion": "5.2.0.0"
+          "lib/net6.0/IdentityModel.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
           }
         }
       },
       "IdentityModel.OidcClient/5.2.1": {
         "dependencies": {
-          "IdentityModel": "5.2.0",
+          "IdentityModel": "7.0.0",
           "Microsoft.Extensions.Logging": "8.0.0"
         },
         "runtime": {
@@ -684,12 +684,12 @@
       "path": "grpc.tools/2.65.0",
       "hashPath": "grpc.tools.2.65.0.nupkg.sha512"
     },
-    "IdentityModel/5.2.0": {
+    "IdentityModel/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nuhkbaDH9l5QzNJp2MtP3qio57MPtiRneUN8Ocr7od0JvSYaIe3gBj/vxllr11S/Qvu1AG4GZXoyv5469ewYDA==",
-      "path": "identitymodel/5.2.0",
-      "hashPath": "identitymodel.5.2.0.nupkg.sha512"
+      "sha512": "sha512-to99aLL5Gev1GOb2gUao/UZXT/uXMyjEmHPNrf/vJI2HBD1LMCTeC4SBCe/cqMIB12V9v+eSieq7ff0lju9pOQ==",
+      "path": "identitymodel/7.0.0",
+      "hashPath": "identitymodel.7.0.0.nupkg.sha512"
     },
     "IdentityModel.OidcClient/5.2.1": {
       "type": "package",

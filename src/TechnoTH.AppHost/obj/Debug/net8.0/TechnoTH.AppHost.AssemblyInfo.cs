@@ -23,7 +23,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechnoTH.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09c3b4a34f3995370037ae2d158fae0219928a79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3857df189307f4e6ff7d2d50b2a056ab5f32cbac")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechnoTH.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechnoTH.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
