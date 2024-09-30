@@ -490,7 +490,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -785,7 +785,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/8.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -1712,10 +1712,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
-      "sha512": "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1733,7 +1733,7 @@
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2153,10 +2153,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/8.0.2": {
-      "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
+    "Microsoft.Extensions.Options/8.0.0": {
+      "sha512": "JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
       "type": "package",
-      "path": "microsoft.extensions.options/8.0.2",
+      "path": "microsoft.extensions.options/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2189,7 +2189,7 @@
         "lib/net8.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
-        "microsoft.extensions.options.8.0.2.nupkg.sha512",
+        "microsoft.extensions.options.8.0.0.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2609,7 +2609,10 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "[8.0.8, )",
           "Microsoft.AspNetCore.OpenApi": "[8.0.8, )",
           "Microsoft.EntityFrameworkCore.Tools": "[8.0.8, )",
-          "Microsoft.Extensions.Http.Resilience": "[8.7.0, )",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+          "Microsoft.Extensions.Http.Resilience": "[8.0.0, )",
+          "Microsoft.Extensions.Options": "[8.0.0, )",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
           "Microsoft.Extensions.ServiceDiscovery": "[8.2.0, )",
           "Microsoft.Extensions.ServiceDiscovery.Yarp": "[8.2.0, )",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.4, )",
@@ -2640,11 +2643,61 @@
       }
     }
   },
+  "logs": [
+    {
+      "code": "NU1109",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.Extensions.DependencyInjection.Abstractions from 8.0.1 to centrally defined 8.0.0. Update the centrally managed package version to a higher version. \n TechnoTH.AppHost -> Aspire.Hosting.AppHost 8.2.0 -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.1) \n TechnoTH.AppHost -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.0)",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1109",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.Extensions.Options from 8.0.2 to centrally defined 8.0.0. Update the centrally managed package version to a higher version. \n TechnoTH.AppHost -> Aspire.Hosting.AppHost 8.2.0 -> Microsoft.Extensions.Options (>= 8.0.2) \n TechnoTH.AppHost -> Microsoft.Extensions.Options (>= 8.0.0)",
+      "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1109",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.Extensions.DependencyInjection.Abstractions from 8.0.1 to centrally defined 8.0.0. Update the centrally managed package version to a higher version. \n TechnoTH.AppHost -> Aspire.Hosting.PostgreSQL 8.2.0 -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.1) \n TechnoTH.AppHost -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.0)",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1109",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.Extensions.Options from 8.0.2 to centrally defined 8.0.0. Update the centrally managed package version to a higher version. \n TechnoTH.AppHost -> Aspire.Hosting.PostgreSQL 8.2.0 -> Microsoft.Extensions.Options (>= 8.0.2) \n TechnoTH.AppHost -> Microsoft.Extensions.Options (>= 8.0.0)",
+      "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ],
   "centralTransitiveDependencyGroups": {
     "net8.0": {
       "IdentityModel": {
         "include": "Runtime, Compile, Native, BuildTransitive",
         "version": "[7.0.0, )"
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "include": "Runtime, Compile, Native, BuildTransitive",
+        "version": "[8.0.0, )"
+      },
+      "Microsoft.Extensions.Options": {
+        "include": "Runtime, Compile, Native, BuildTransitive",
+        "version": "[8.0.0, )"
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions": {
+        "include": "Runtime, Compile, Native, BuildTransitive",
+        "version": "[8.0.0, )"
       }
     }
   }

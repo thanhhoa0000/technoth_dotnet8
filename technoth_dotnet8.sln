@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoTH.ServiceDefaults", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "src\Catalog.API\Catalog.API.csproj", "{6CD10120-E1B4-41C8-8DC2-EA484BB5A1EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "src\EventBus\EventBus.csproj", "{64E28A5B-8A95-4ED5-B3C1-6AEA27428CD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{6CD10120-E1B4-41C8-8DC2-EA484BB5A1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD10120-E1B4-41C8-8DC2-EA484BB5A1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD10120-E1B4-41C8-8DC2-EA484BB5A1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E28A5B-8A95-4ED5-B3C1-6AEA27428CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E28A5B-8A95-4ED5-B3C1-6AEA27428CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E28A5B-8A95-4ED5-B3C1-6AEA27428CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E28A5B-8A95-4ED5-B3C1-6AEA27428CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{E2E0D14C-F81B-4BDF-BFBC-1F38B82D2DA2} = {6E21403A-6FEB-46C8-954A-55CB700E1703}
 		{2D6F5BF0-B0E1-473A-B9F9-540D5950672C} = {6E21403A-6FEB-46C8-954A-55CB700E1703}
 		{6CD10120-E1B4-41C8-8DC2-EA484BB5A1EA} = {6E21403A-6FEB-46C8-954A-55CB700E1703}
+		{64E28A5B-8A95-4ED5-B3C1-6AEA27428CD5} = {6E21403A-6FEB-46C8-954A-55CB700E1703}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2E562DB-2934-42BB-9721-CA3E7C71D5C5}

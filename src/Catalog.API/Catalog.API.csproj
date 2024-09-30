@@ -23,17 +23,5 @@
   <ItemGroup>
     <ProjectReference Include="..\TechnoTH.ServiceDefaults\TechnoTH.ServiceDefaults.csproj" />
   </ItemGroup>
-  
-  <ItemGroup>
-    <EmbeddedResource Remove="Apiss\**" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <Content Remove="Apiss\**" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <None Remove="Apiss\**" />
-  </ItemGroup>
 
 </Project>

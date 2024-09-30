@@ -1,0 +1,6 @@
+/workspaces/technoth_dotnet8/src/EventBus/obj/Debug/net8.0/EventBus.csproj.AssemblyReference.cache
+/workspaces/technoth_dotnet8/src/EventBus/obj/Debug/net8.0/EventBus.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/technoth_dotnet8/src/EventBus/obj/Debug/net8.0/EventBus.AssemblyInfoInputs.cache
+/workspaces/technoth_dotnet8/src/EventBus/obj/Debug/net8.0/EventBus.AssemblyInfo.cs
+/workspaces/technoth_dotnet8/src/EventBus/obj/Debug/net8.0/EventBus.csproj.CoreCompileInputs.cache
+/workspaces/technoth_dotnet8/src/EventBus/obj/Debug/net8.0/EventBus.sourcelink.json

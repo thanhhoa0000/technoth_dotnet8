@@ -14,8 +14,8 @@ var app = builder.Build();
 
 app.MapDefaultEndpoints();
 
-app.NewVersionedApi("Catalog")
-    .MapCatalogApiV1();
+// app.NewVersionedApi("Catalog")
+//    .MapCatalogApiV1();
 
 app.UseDefaultOpenApi();
 

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "uipj20RpeHjFVfjq6UiBHsCwWNjihPUmfKNtCgaDu8jTPWuDF4KXmoupU1QRwo8M9wj8VQgosqR4pMOCosMi2g==",
+  "success": false,
+  "projectFilePath": "/workspaces/technoth_dotnet8/src/EventBus/EventBus.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1103",
+      "level": "Error",
+      "message": "Unable to find a stable package Microsoft.Extensions.DependencyInjection.Abstractions with version (>= 8.7.0)\n  - Found 122 version(s) in nuget.org [ Nearest version: 9.0.0-preview.1.24080.9 ]",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1103",
+      "level": "Error",
+      "message": "Unable to find a stable package Microsoft.Extensions.Options with version (>= 8.7.0)\n  - Found 127 version(s) in nuget.org [ Nearest version: 9.0.0-preview.1.24080.9 ]",
+      "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

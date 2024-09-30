@@ -9,6 +9,7 @@ public static class CatalogApi
         var api = app.MapGroup("api/catalog").HasApiVersion(1.0);
 
         api.MapGet("/items", GetAllItems);
+        /*
         api.MapGet("/items/{id:guid}", GetItemById);
         api.MapGet("/items/by/{name:minlength(1)}", GetItemsByName);
         
@@ -21,7 +22,7 @@ public static class CatalogApi
         api.MapPut("/items", UpdateItem);
         api.MapPost("/items", CreateItem);
         api.MapDelete("/items/{id:guid}", DeleteItemById);
-
+        */
         return app;
     }
 
